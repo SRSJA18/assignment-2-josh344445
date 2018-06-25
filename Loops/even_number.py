@@ -5,9 +5,14 @@
 # Don't let them stop until they enter an even number! Print a congratulatory message when they *finally* get it
 
 # This line will ask the user for an even number.
-number = input("Enter an even number?")
+number = eval(input("Enter an even number?"))
 
 # 1. create while a loop (What will the condition be?)
+while(1==1):
+    if number%2==1:
+        number=eval(input("not quite, try again"))
+
+
 
 # 2. Inside the while loop What will you need to do? Don't forget to tab in!
 
